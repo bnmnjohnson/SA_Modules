@@ -1,0 +1,27 @@
+//Global styles for the service
+
+* {
+	//reset the browser to normal
+	font-family: sans-serif;
+	margin:0;
+	padding: 0;
+}
+
+#module-info {
+	padding: 20px;
+}
+
+#module-info label {
+	font-size: 0.8em;
+}
+
+#screen-width{
+	position: absolute;
+	display: block;
+	background-color: #EFEFEF;
+	right: 20px;
+	text-align: center;
+	padding: 8px;
+	font-size: 0.8em;
+}
+

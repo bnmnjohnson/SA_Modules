@@ -1,0 +1,65 @@
+body {
+  background-color: #efefef; }
+
+.eventContainer {
+  margin: 20px;
+  display: inline-block;
+  width: 280px;
+  min-height: 120px;
+  background-color: #fff; }
+
+.imageContainer {
+  display: block;
+  background-color: #48B8D0; }
+
+.imageContainer img {
+  width: 100%;
+  -webkit-filter: grayscale(1);
+  transition: 0.3s; }
+
+.eventContainer:hover img {
+  width: 100%;
+  -webkit-filter: grayscale(0);
+  transition: 0.3s; }
+
+.eventBody {
+  display: block;
+  min-height: 200px;
+  padding: 30px; }
+
+#eventDate {
+  font-size: 0.7em;
+  line-height: 1.2em;
+  font-family: Adelle Sans; }
+
+#eventTitle {
+  font-size: 1.2em;
+  line-height: 1.2em;
+  font-family: Adelle; }
+
+#eventDesc {
+  font-size: 0.7em;
+  line-height: 1.6em;
+  font-family: Adelle Sans; }
+
+.eventCtaContainer {
+  display: block;
+  width: 100%;
+  text-align: right;
+  margin-bottom: 20px;
+  font-family: Adelle Sans; }
+
+#eventCTA {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #48B8D0;
+  width: auto;
+  margin-right: -20px; }
+
+#eventCTA a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2;
+  font-family: Adelle; }
