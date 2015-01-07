@@ -1,8 +1,16 @@
 * {
-  font-family: sans-serif; }
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0; }
 
-.test {
+#module-info {
+  padding: 20px; }
+
+#screen-width {
+  position: absolute;
   display: block;
-  height: 300px;
-  width: 500px;
-  background-color: #444; }
+  background-color: #EFEFEF;
+  right: 20px;
+  text-align: center;
+  padding: 8px;
+  font-size: 0.8em; }

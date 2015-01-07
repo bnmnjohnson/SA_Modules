@@ -1,1 +1,1 @@
-$(document).ready(function(){});
+$(document).ready(function(){setWidthValue()}),$(window).resize(function(){setWidthValue()});var setWidthValue=function(){var t=$(window).width();$("#screen-width").text(t+" px")};

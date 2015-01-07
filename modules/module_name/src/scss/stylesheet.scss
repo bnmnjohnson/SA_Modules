@@ -1,12 +1,23 @@
-//This is the styles for the module. 
+//This is the styles for the module
 
 * {
+	//reset the browser to normal
 	font-family: sans-serif;
+	margin:0;
+	padding: 0;
 }
 
-.test {
-	display: block;
-	height: 300px;
-	width: 500px;
-	background-color: #444;
+#module-info {
+	padding: 20px;
 }
+
+#screen-width{
+	position: absolute;
+	display: block;
+	background-color: #EFEFEF;
+	right: 20px;
+	text-align: center;
+	padding: 8px;
+	font-size: 0.8em;
+}
+
