@@ -1,0 +1,247 @@
+//bring in the colours from the partial file
+@import 'colours';
+@import 'global';
+
+//Add styles specific to the module
+
+
+
+body {
+	background-color: $mid_grey;
+}
+
+.button {
+	margin-top: 10px;
+}
+
+.eventTileContainer {
+	display: block;
+	width: 80%;
+	max-width: 1130px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.eventTile {
+	display: inline-block;
+	vertical-align:top;
+	width: 325px;
+	// height: 635px;
+	background-color: #FFF;
+	margin: 24px;
+	// border-bottom: 1px solid #999999;
+	// border-right: 1px solid #999999;
+}
+
+.imageContainer {
+	display: block;
+	// background-color: $universal_blue;
+	background-image: url('/modules/events_tile/src/img/image2.jpg');
+	background-size: cover;
+	width: 100%;
+	height: 210px;
+
+}
+
+.eventBody {
+	padding: 30px;
+}
+
+.eventHeader {
+	font-size: 13px;
+	font-weight: 600;
+	color: #999999;
+	font-family: $sans-serif;
+	letter-spacing: 0.2px;
+}
+
+.accentStrip {
+	margin-top: 5px;
+	height: 5px;
+	width: 55px;
+	display: block;
+	background-color: $nsw_hero;
+}
+
+.locationContainer {
+	margin-top: 8px;
+	display: inline-block;
+}
+
+.statusContainer {
+	margin-top: 8px;
+	display: inline-block;
+	float: right;
+	text-align: right;
+}
+
+.eventTitle {
+	color: $text_black;
+	margin-top: 25px;
+	line-height: 1.5em;
+}
+
+.eventDate {
+	margin-top: 10px;
+	font-size: 13px;
+	color: #999999;
+}
+
+//space the icon slightly away from the text with padding
+.eventDate i {
+	margin-right: 2px;
+}
+
+.eventDesc{
+	margin-top:30px;
+}
+
+.eventDesc p {
+	font-family: $serif;
+	font-size: 13px;
+	line-height: 1.6em;
+}
+
+a {
+	color: $nsw_hero;
+	text-decoration: none;
+	font-weight: 600;
+}
+
+a:hover {
+	border-bottom: 2px solid $nsw_hero;
+}
+
+.ctaContainer {
+	display: block;
+	margin-bottom: 20px;
+}
+
+.eventCta {
+	font-size: 13px;
+	font-family: $sans-serif;
+	float: right;
+	display: block;
+	margin-right: -50px;
+	padding-top: 8px;
+	padding-bottom: 6px;
+	padding-left: 12px;
+	padding-right: 8px;
+	background-color: $nsw_hero;
+	border-bottom: 2px solid #444444;
+	border-right: 2px solid #444444;
+	color: #FFF;
+	cursor: pointer;
+}
+
+.eventCta i {
+	margin-left: 4px;
+}
+
+.eventCta:hover {
+	border-bottom: 0px solid #444444;
+	border-right: 0px solid #444444;
+}
+
+// .loadMore {
+// 	display: block;
+// 	margin-left: auto;
+// 	margin-right: auto;
+// 	height: 38px;
+// 	line-height: 42px;
+// 	font-size: 15px;
+// 	letter-spacing: 0.025em;
+// 	vertical-align: middle;
+// 	max-width: 900px;
+// 	text-align: center;
+// 	background-color: $universal_blue;
+// 	border-bottom: 2px solid $nsw_hero;
+// 	border-right: 2px solid $nsw_hero;
+// 	color: #fff;
+// 	// padding: 10px;
+// }
+
+.loadMore {
+	text-align: center;
+	font-size: 15px;
+	color: #444;
+	width: 1080px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 13px;
+	background-color: #CCC;
+	cursor: pointer;
+	margin: 20px;
+}
+
+.loadMore:hover {
+	background-color: #AAA;
+}
+// THESE STYLES CHANGE THE COLORUS FOR THE STATES
+#saImage {
+	background-image: url('/modules/events_tile/src/img/image3.jpg');
+}
+
+#saAccent {
+	background-color: $sa_hero;
+}
+
+#eventDescSa a {
+	color: $sa_hero;
+}
+
+#eventDescSa a:hover {
+	border-bottom: 2px solid $sa_hero;
+}
+
+#eventCtaSa {
+	background-color: $sa_hero;
+}
+
+
+#waImage {
+	background-image: url('/modules/events_tile/src/img/image4.jpg');
+}
+
+#waAccent {
+	background-color: $wa_hero;
+}
+
+#eventDescWa a {
+	color: $wa_hero;
+}
+
+#eventDescWa a:hover {
+	border-bottom: 2px solid $wa_hero;
+}
+
+#eventCtaWa {
+	background-color: $wa_hero;
+	color: #fff;
+	border-bottom: 2px solid #6c4b00;
+	border-right: 2px solid #6c4b00;
+	// color: #6c4b00;
+}
+#eventCtaWa:hover {
+	border: none;
+}
+
+#tasImage {
+	background-image: url('/modules/events_tile/src/img/image5.jpg');
+}
+
+#tasAccent {
+	background-color: $tas_hero;
+}
+
+#eventDescTas a {
+	color: $tas_hero;
+}
+
+#eventDescTas a:hover {
+	border-bottom: 2px solid $tas_hero;
+}
+
+#eventCtaTas {
+	background-color: $tas_hero;
+}

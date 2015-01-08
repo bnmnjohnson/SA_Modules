@@ -1,1 +1,1 @@
-$(document).ready(function(){}),$(window).resize(function(){});
+var loadTiles=function(){$("#nswTile").hide().delay(300).fadeIn("slow"),$("#saTile").hide().delay(500).fadeIn("slow"),$("#waTile").hide().delay(700).fadeIn("slow"),$("#tasTile").hide(),$("#showMore").hide().delay(1200).fadeIn("slow")};$(document).ready(function(){loadTiles(),$("#reload").click(function(){loadTiles()}),$("#showMore").click(function(){$("#tasTile").delay(200).fadeIn("slow")})}),$(window).resize(function(){});
