@@ -3,17 +3,20 @@
 
 //styles unique to page:
 * {
-	font-family: sans-serif;
+	font-family: "Adelle", sans-serif;
 }
 
-a {
-	color: $universal_blue;
+body {
+	max-width: 800px;
+	margin-left:auto;
+	margin-right: auto;
+	color: $text_grey;
 }
-
-a:visited {
-	color: $universal_blue;
-}
-
+ p {
+ 	font-family: "Adelle Sans", sans-serif;
+ 	font-size: 0.8em;
+ 	line-height: 1.2em;
+ }
 .colourBlock {
 	display: inline-block;
 	width: 100px;
@@ -24,8 +27,9 @@ a:visited {
 }
 
 .colourBlock p {
-	line-height: 100px;
+	line-height: 155px;
 	vertical-align: bottom;
+	font-size: 0.8em;
 }
 
 #universalBlock {
@@ -61,4 +65,21 @@ a:visited {
 }
 #textgreyBlock {
 	background-color: $text_grey;
+}
+
+#iconography {
+	display: block;
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.iconContainer {
+	display: inline-block;
+	margin: 20px;
+	width: 320px;
+}
+.iconContainer > i {
+	margin: 5px;
 }
