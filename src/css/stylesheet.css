@@ -1,0 +1,54 @@
+* {
+  font-family: sans-serif; }
+
+a {
+  color: #48b8d0; }
+
+a:visited {
+  color: #48b8d0; }
+
+.colourBlock {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  color: #fff;
+  padding: 10px; }
+
+.colourBlock p {
+  line-height: 100px;
+  vertical-align: bottom; }
+
+#universalBlock {
+  background-color: #48b8d0; }
+
+#nswBlock {
+  background-color: #006992; }
+
+#qldBlock {
+  background-color: #6c003f; }
+
+#actBlock {
+  background-color: #28112b; }
+
+#saBlock {
+  background-color: #931621; }
+
+#waBlock {
+  background-color: #eca400; }
+
+#ntBlock {
+  background-color: #1c1d25; }
+
+#tasBlock {
+  background-color: #6eba96; }
+
+#midgreyBlock {
+  background-color: #e0e1e2;
+  color: #3A3335; }
+
+#darkgreyBlock {
+  background-color: #444444; }
+
+#textgreyBlock {
+  background-color: #3A3335; }

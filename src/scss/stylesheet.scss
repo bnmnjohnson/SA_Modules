@@ -1,0 +1,64 @@
+//import the global styles
+@import 'colours';
+
+//styles unique to page:
+* {
+	font-family: sans-serif;
+}
+
+a {
+	color: $universal_blue;
+}
+
+a:visited {
+	color: $universal_blue;
+}
+
+.colourBlock {
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	margin: 5px;
+	color: #fff;
+	padding: 10px;
+}
+
+.colourBlock p {
+	line-height: 100px;
+	vertical-align: bottom;
+}
+
+#universalBlock {
+	background-color: $universal_blue;
+}
+#nswBlock {
+	background-color: $nsw_hero;
+}
+#qldBlock {
+	background-color: $qld_hero;
+}
+#actBlock {
+	background-color: $act_hero;
+}
+#saBlock {
+	background-color: $sa_hero;
+}
+#waBlock {
+	background-color: $wa_hero;
+}
+#ntBlock {
+	background-color: $nt_hero;
+}
+#tasBlock {
+	background-color: $tas_hero;
+}
+#midgreyBlock {
+	background-color: $mid_grey;
+	color: $text_grey;
+}
+#darkgreyBlock {
+	background-color: $dark_grey;
+}
+#textgreyBlock {
+	background-color: $text_grey;
+}

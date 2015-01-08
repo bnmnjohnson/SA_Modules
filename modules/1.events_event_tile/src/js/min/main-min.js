@@ -1,1 +1,0 @@
-var moduleName="Event Tile",setWidthValue=function(){var e=$(window).width();$("#screen-width").text(e+" px")},setModuleName=function(){$("#module-name").text(moduleName)};$(document).ready(function(){setWidthValue(),setModuleName()}),$(window).resize(function(){setWidthValue()});
