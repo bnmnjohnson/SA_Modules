@@ -1,10 +1,9 @@
 //bring in the colours from the partial file
 @import 'colours';
 @import 'global';
+@import 'fonts';
 
 //Add styles specific to the module
-
-
 
 body {
 	background-color: $mid_grey;
@@ -16,8 +15,8 @@ body {
 
 .eventTileContainer {
 	display: block;
-	width: 80%;
-	max-width: 1130px;
+	// max-width: 1130px;
+	width: 1000px;
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -25,10 +24,10 @@ body {
 .eventTile {
 	display: inline-block;
 	vertical-align:top;
-	width: 325px;
+	width: 300px;
 	// height: 635px;
 	background-color: #FFF;
-	margin: 24px;
+	margin: 15px;
 	// border-bottom: 1px solid #999999;
 	// border-right: 1px solid #999999;
 }
@@ -36,7 +35,7 @@ body {
 .imageContainer {
 	display: block;
 	// background-color: $universal_blue;
-	background-image: url('/modules/events_tile/src/img/image2.jpg');
+	background-image: url('img/image2.jpg');
 	background-size: cover;
 	width: 100%;
 	height: 210px;
@@ -56,20 +55,21 @@ body {
 }
 
 .accentStrip {
-	margin-top: 5px;
+	// margin-top: 5px;
 	height: 5px;
 	width: 55px;
 	display: block;
 	background-color: $nsw_hero;
+	margin-bottom: 8px;
 }
 
 .locationContainer {
-	margin-top: 8px;
 	display: inline-block;
+	width: 140px;
+	// background-color:red;
 }
 
 .statusContainer {
-	margin-top: 8px;
 	display: inline-block;
 	float: right;
 	text-align: right;
@@ -79,6 +79,11 @@ body {
 	color: $text_black;
 	margin-top: 25px;
 	line-height: 1.5em;
+}
+
+.eventTitle h3 {
+	font-size: 21px;
+	line-height: 1.3em;
 }
 
 .eventDate {
@@ -98,8 +103,10 @@ body {
 
 .eventDesc p {
 	font-family: $serif;
-	font-size: 13px;
+	font-size: 12px;
 	line-height: 1.6em;
+	word-wrap: break-word;
+	hyphens:  auto;
 }
 
 a {
@@ -165,21 +172,67 @@ a:hover {
 	text-align: center;
 	font-size: 15px;
 	color: #444;
-	width: 1080px;
-	margin-left: auto;
-	margin-right: auto;
+	width: auto;
+	margin: 15px;
 	padding: 13px;
 	background-color: #CCC;
 	cursor: pointer;
-	margin: 20px;
 }
 
 .loadMore:hover {
 	background-color: #AAA;
 }
+
+//media queries 
+
+@media screen and (max-width: 1023px){
+	.eventTile {
+		width: 400px;
+	}
+	.eventTileContainer {
+		width: 880px;
+	}
+}
+
+@media screen and (max-width: 880px){
+	.eventTile {
+		width: 300px;
+	}
+	.eventTileContainer {
+		width: 680px;
+	}
+}
+
+@media screen and (max-width: 680px){
+	.eventTile {
+		width: 100%;
+		margin-left: 0px;
+	}
+	.eventBody {
+		// padding: 15px;
+	}
+	.eventTileContainer {
+		width: 80%;
+	}
+}
+
+@media screen and (max-width: 330px){
+	.eventBody {
+		padding: 22px;
+	}
+
+	.eventTileContainer {
+		width: 90%;
+	}
+	.eventCta {
+		margin-right: 0px;
+		margin-bottom: 22px;
+	}
+}
+
 // THESE STYLES CHANGE THE COLORUS FOR THE STATES
 #saImage {
-	background-image: url('/modules/events_tile/src/img/image3.jpg');
+	background-image: url('img/image3.jpg');
 }
 
 #saAccent {
@@ -200,7 +253,7 @@ a:hover {
 
 
 #waImage {
-	background-image: url('/modules/events_tile/src/img/image4.jpg');
+	background-image: url('img/image4.jpg');
 }
 
 #waAccent {
@@ -227,7 +280,7 @@ a:hover {
 }
 
 #tasImage {
-	background-image: url('/modules/events_tile/src/img/image5.jpg');
+	background-image: url('img/image5.jpg');
 }
 
 #tasAccent {
@@ -244,4 +297,44 @@ a:hover {
 
 #eventCtaTas {
 	background-color: $tas_hero;
+}
+
+#ntImage {
+	background-image: url('img/image6.jpg');
+}
+
+#ntAccent {
+	background-color: $nt_hero;
+}
+
+#eventDescNt a {
+	color: $nt_hero;
+}
+
+#eventDescNt a:hover {
+	border-bottom: 2px solid $nt_hero;
+}
+
+#eventCtaNt {
+	background-color: $nt_hero;
+}
+
+#qldImage {
+	background-image: url('img/image7.jpg');
+}
+
+#qldAccent {
+	background-color: $qld_hero;
+}
+
+#eventDescQld a {
+	color: $qld_hero;
+}
+
+#eventDescQld a:hover {
+	border-bottom: 2px solid $qld_hero;
+}
+
+#eventCtaQld {
+	background-color: $qld_hero;
 }

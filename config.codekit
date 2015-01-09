@@ -128,6 +128,83 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/modules\/events_tile\/src\/css\/img\/image.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6864,
+		"inputAbbreviatedPath": "\/modules\/events_tile\/src\/css\/img\/image.jpeg",
+		"outputAbbreviatedPath": "\/modules\/events_tile\/src\/css\/img\/image.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/modules\/events_tile\/src\/css\/img\/image2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 158967,
+		"inputAbbreviatedPath": "\/modules\/events_tile\/src\/css\/img\/image2.jpg",
+		"outputAbbreviatedPath": "\/modules\/events_tile\/src\/css\/img\/image2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/modules\/events_tile\/src\/css\/img\/image3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 194175,
+		"inputAbbreviatedPath": "\/modules\/events_tile\/src\/css\/img\/image3.jpg",
+		"outputAbbreviatedPath": "\/modules\/events_tile\/src\/css\/img\/image3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/modules\/events_tile\/src\/css\/img\/image4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 603412,
+		"inputAbbreviatedPath": "\/modules\/events_tile\/src\/css\/img\/image4.jpg",
+		"outputAbbreviatedPath": "\/modules\/events_tile\/src\/css\/img\/image4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/modules\/events_tile\/src\/css\/img\/image5.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16287,
+		"inputAbbreviatedPath": "\/modules\/events_tile\/src\/css\/img\/image5.jpg",
+		"outputAbbreviatedPath": "\/modules\/events_tile\/src\/css\/img\/image5.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/modules\/events_tile\/src\/css\/img\/image6.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 153582,
+		"inputAbbreviatedPath": "\/modules\/events_tile\/src\/css\/img\/image6.jpg",
+		"outputAbbreviatedPath": "\/modules\/events_tile\/src\/css\/img\/image6.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/modules\/events_tile\/src\/css\/img\/image7.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 155768,
+		"inputAbbreviatedPath": "\/modules\/events_tile\/src\/css\/img\/image7.jpg",
+		"outputAbbreviatedPath": "\/modules\/events_tile\/src\/css\/img\/image7.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/modules\/events_tile\/src\/css\/stylesheet.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -136,50 +213,6 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
-		},
-	"\/modules\/events_tile\/src\/img\/image.jpeg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 6864,
-		"inputAbbreviatedPath": "\/modules\/events_tile\/src\/img\/image.jpeg",
-		"outputAbbreviatedPath": "\/modules\/events_tile\/src\/img\/image.jpeg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/modules\/events_tile\/src\/img\/image2.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 158967,
-		"inputAbbreviatedPath": "\/modules\/events_tile\/src\/img\/image2.jpg",
-		"outputAbbreviatedPath": "\/modules\/events_tile\/src\/img\/image2.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/modules\/events_tile\/src\/img\/image3.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 194175,
-		"inputAbbreviatedPath": "\/modules\/events_tile\/src\/img\/image3.jpg",
-		"outputAbbreviatedPath": "\/modules\/events_tile\/src\/img\/image3.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/modules\/events_tile\/src\/img\/image4.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 603412,
-		"inputAbbreviatedPath": "\/modules\/events_tile\/src\/img\/image4.jpg",
-		"outputAbbreviatedPath": "\/modules\/events_tile\/src\/img\/image4.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
 		},
 	"\/modules\/events_tile\/src\/js\/main.js": {
 		"fileType": 64,
@@ -212,6 +245,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/modules\/events_tile\/src\/scss\/_colours.scss",
 		"outputAbbreviatedPath": "\/modules\/events_tile\/src\/css\/_colours.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/modules\/events_tile\/src\/scss\/_fonts.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/modules\/events_tile\/src\/scss\/_fonts.scss",
+		"outputAbbreviatedPath": "\/modules\/events_tile\/src\/css\/_fonts.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,

@@ -1,14 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<title>SA Event Tile Demo</title>
 	<!-- COMPILED CSS STYLESHEET -->
 	<link rel="stylesheet" href="src/css/stylesheet.css">
 	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- JAVASCRIPT -->
-	<script src="/src/js/bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<script type="text/javascript" src="src/js/main.js"></script>
+
+
 </head>
 <body>
 <div id="module-info">
@@ -20,6 +22,7 @@
 <hr/>
 <!-- BUILD THE MODULE HERE -->
 
+<br><br><br>
 
 <div class="eventTileContainer">
 	<div class="eventTile" id="nswTile">
@@ -28,11 +31,11 @@
 			<div class="eventHeader">
 				<div class="accentStrip"></div>
 				<div class="locationContainer">
-					<span id="nswLabel"><i class="fa fa-map-marker"></i> NSW</span>
+					<span id="nswLabel"><i class="fa fa-map-marker"></i> Bondi,<br/>New South Wales</span>
 				</div>
 
 				<div class="statusContainer">
-					<span id="stateLable">ENTRY CLOSED</span>
+					<span id="stateLable">CLOSED</span>
 				</div>
 			</div>
 			<div class="eventTitle">
@@ -62,11 +65,11 @@
 			<div class="eventHeader">
 				<div id="saAccent" class="accentStrip"></div>
 				<div class="locationContainer">
-					<span id="saLabel"><i class="fa fa-map-marker"></i> SA</span>
+					<span id="saLabel"><i class="fa fa-map-marker"></i> Brighton,<br/> South Australia</span>
 				</div>
 
 				<div class="statusContainer">
-					<span id="stateLable">ENTRY OPEN</span>
+					<span id="stateLable">OPEN</span>
 				</div>
 			</div>
 			<div class="eventTitle">
@@ -95,11 +98,11 @@
 			<div class="eventHeader">
 				<div id="waAccent" class="accentStrip"></div>
 				<div class="locationContainer">
-					<span id="saLabel"><i class="fa fa-map-marker"></i> WA</span>
+					<span id="saLabel"><i class="fa fa-map-marker"></i> Margret River,<br/>Western Australia</span>
 				</div>
 
 				<div class="statusContainer">
-					<span id="stateLable">RESULTS PUBLISHED</span>
+					<span id="stateLable">OPEN</span>
 				</div>
 			</div>
 			<div class="eventTitle">
@@ -129,15 +132,15 @@
 			<div class="eventHeader">
 				<div id="tasAccent" class="accentStrip"></div>
 				<div class="locationContainer">
-					<span id="tasLabel"><i class="fa fa-map-marker"></i> TAS</span>
+					<span id="tasLabel"><i class="fa fa-map-marker"></i> Crescent Head, <br/>Tasmainia</span>
 				</div>
 
 				<div class="statusContainer">
-					<span id="stateLable">ENTRY OPEN</span>
+					<span id="stateLable">OPEN</span>
 				</div>
 			</div>
 			<div class="eventTitle">
-				<h3>Wahu Surfer Groms Comps - Under 18</h3>
+				<h3>Red Herring Surf Bruny Island Junior and longboards</h3>
 			</div>
 			<div class="eventDate">
 				<span id="start-date"><i class="fa fa-calendar"></i> 12th Sep 2015</span>
@@ -150,6 +153,70 @@
 			</div>
 			<div class="ctaContainer">
 				<div class="eventCta" id="eventCtaTas">
+				<span id="eventCta">VIEW EVENT <i class="fa fa-caret-right"></i></span>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<div class="eventTile" id="ntTile">
+		<div class="imageContainer" id="ntImage"></div>
+		<div class="eventBody">
+			<div class="eventHeader">
+				<div id="ntAccent" class="accentStrip"></div>
+				<div class="locationContainer">
+					<span id="ntLabel"><i class="fa fa-map-marker"></i> East Woody Beach, <br/>Northern Territory</span>
+				</div>
+
+				<div class="statusContainer">
+					<span id="stateLable">CLOSED</span>
+				</div>
+			</div>
+			<div class="eventTitle">
+				<h3>Ocean &amp; Earth International Teenage Rampage</h3>
+			</div>
+			<div class="eventDate">
+				<span id="start-date"><i class="fa fa-calendar"></i> 25th Jul 2015</span>
+			</div>
+			<div class="eventDesc" id="eventDescNt">
+			<span id="event-desc"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod ea commodo consequat. Duis aute irure dolor in reprehenderit.</p><p><a href="#">Read More</a></p></span>
+			</div>
+			<div class="ctaContainer">
+				<div class="eventCta" id="eventCtaNt">
+				<span id="eventCta">VIEW EVENT <i class="fa fa-caret-right"></i></span>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	<div class="eventTile" id="qldTile">
+		<div class="imageContainer" id="qldImage"></div>
+		<div class="eventBody">
+			<div class="eventHeader">
+				<div id="qldAccent" class="accentStrip"></div>
+				<div class="locationContainer">
+					<span id="qldLabel"><i class="fa fa-map-marker"></i> Surfers Paradise,<br/> Queensland</span>
+				</div>
+
+				<div class="statusContainer">
+					<span id="stateLable">OPEN</span>
+				</div>
+			</div>
+			<div class="eventTitle">
+				<h3>Coastalwatch Surf for Life - Snapper Rocks</h3>
+			</div>
+			<div class="eventDate">
+				<span id="start-date"><i class="fa fa-calendar"></i> 25th Apr 2015</span>
+			</div>
+			<div class="eventDesc" id="eventDescQld">
+			<span id="event-desc"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in.</p><p><a href="#">Read More</a></p></span>
+			</div>
+			<div class="ctaContainer">
+				<div class="eventCta" id="eventCtaQld">
 				<span id="eventCta">VIEW EVENT <i class="fa fa-caret-right"></i></span>
 				</div>
 			</div>
