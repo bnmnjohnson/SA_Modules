@@ -137,8 +137,8 @@ a:hover {
 	padding-left: 12px;
 	padding-right: 8px;
 	background-color: $nsw_hero;
-	border-bottom: 2px solid #444444;
-	border-right: 2px solid #444444;
+	// border-bottom: 2px solid #444444;
+	// border-right: 2px solid #444444;
 	color: #FFF;
 	cursor: pointer;
 }
@@ -148,8 +148,7 @@ a:hover {
 }
 
 .eventCta:hover {
-	border-bottom: 0px solid #444444;
-	border-right: 0px solid #444444;
+	opacity: 0.9;
 }
 
 // .loadMore {
@@ -192,7 +191,7 @@ a:hover {
 		width: 400px;
 	}
 	.eventTileContainer {
-		width: 880px;
+		width: 879px;
 	}
 }
 
@@ -201,7 +200,7 @@ a:hover {
 		width: 300px;
 	}
 	.eventTileContainer {
-		width: 680px;
+		width: 679px;
 	}
 }
 
@@ -272,13 +271,7 @@ a:hover {
 
 #eventCtaWa {
 	background-color: $wa_hero;
-	color: #fff;
-	border-bottom: 2px solid #6c4b00;
-	border-right: 2px solid #6c4b00;
 	// color: #6c4b00;
-}
-#eventCtaWa:hover {
-	border: none;
 }
 
 #tasImage {

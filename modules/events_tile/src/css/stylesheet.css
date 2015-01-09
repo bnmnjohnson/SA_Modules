@@ -173,8 +173,6 @@ a:hover {
   padding-left: 12px;
   padding-right: 8px;
   background-color: #006992;
-  border-bottom: 2px solid #444444;
-  border-right: 2px solid #444444;
   color: #FFF;
   cursor: pointer; }
 
@@ -182,8 +180,7 @@ a:hover {
   margin-left: 4px; }
 
 .eventCta:hover {
-  border-bottom: 0px solid #444444;
-  border-right: 0px solid #444444; }
+  opacity: 0.9; }
 
 .loadMore {
   text-align: center;
@@ -203,13 +200,13 @@ a:hover {
     width: 400px; }
 
   .eventTileContainer {
-    width: 880px; } }
+    width: 879px; } }
 @media screen and (max-width: 880px) {
   .eventTile {
     width: 300px; }
 
   .eventTileContainer {
-    width: 680px; } }
+    width: 679px; } }
 @media screen and (max-width: 680px) {
   .eventTile {
     width: 100%;
@@ -255,13 +252,7 @@ a:hover {
   border-bottom: 2px solid #eca400; }
 
 #eventCtaWa {
-  background-color: #eca400;
-  color: #fff;
-  border-bottom: 2px solid #6c4b00;
-  border-right: 2px solid #6c4b00; }
-
-#eventCtaWa:hover {
-  border: none; }
+  background-color: #eca400; }
 
 #tasImage {
   background-image: url("img/image5.jpg"); }
